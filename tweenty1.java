@@ -12,7 +12,7 @@ class tweenty1{
                 char ch=ss.charAt(i);
                  c=0;
                 for(String sss:str){
-                    System.out.println(sss);
+                    //System.out.println(sss);
                     for( int j=0;j<sss.length();j++){
                         char chh=sss.charAt(j);
                         if(ch==chh){
