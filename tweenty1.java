@@ -6,7 +6,7 @@ class tweenty1{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the string");
         String s=sc.nextLine();
-        String str[]=s.split("");
+        String str[]=s.split(" ");
         for(String ss:str){
             for(int i=0;i<ss.length();i++){
                 char ch=ss.charAt(i);
